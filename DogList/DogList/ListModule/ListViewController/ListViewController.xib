@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListViewController" customModule="DogList" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="edG-gr-1rp" id="7i2-2g-Fz7"/>
+                <outlet property="view" destination="iN0-l3-epB" id="I7l-Sc-PcF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="180" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="edG-gr-1rp">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" name="AppTertiaryColor"/>
+            <constraints>
+                <constraint firstItem="edG-gr-1rp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="40G-2H-Xnf"/>
+                <constraint firstAttribute="bottom" secondItem="edG-gr-1rp" secondAttribute="bottom" id="6vZ-7D-gmY"/>
+                <constraint firstAttribute="trailing" secondItem="edG-gr-1rp" secondAttribute="trailing" id="eNM-7t-ZVY"/>
+                <constraint firstItem="edG-gr-1rp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wCy-qH-f6y"/>
+            </constraints>
+            <point key="canvasLocation" x="-2" y="-12"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AppTertiaryColor">
+            <color red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

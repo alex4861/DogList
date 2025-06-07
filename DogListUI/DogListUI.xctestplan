@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "36089A1A-30B0-43D3-BB66-11CF9979A473",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DogListUI.xcodeproj",
+      "identifier" : "B40013302DF1F41500684C2A",
+      "name" : "DogListUI"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:DogListUI.xcodeproj",
+        "identifier" : "B40013402DF1F41700684C2A",
+        "name" : "DogListUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:DogListUI.xcodeproj",
+        "identifier" : "B400134A2DF1F41700684C2A",
+        "name" : "DogListUIUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

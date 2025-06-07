@@ -1,0 +1,46 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Almost %lld years" : {
+
+    },
+    "App.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dogs We Love"
+          }
+        }
+      }
+    },
+    "Dog.Age" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Almost %lld year"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Almost %lld years"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Dogs We Love" : {
+
+    }
+  },
+  "version" : "1.0"
+}
